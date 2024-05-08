@@ -78,7 +78,7 @@ export function fetchCreate(query) {
 import axios from 'axios';
 
 export function addSite(data) {
-  const url = 'http://192.168.3.35:8080/v1/add/'; // 后端新增数据的 API 地址
+  const url = 'http://192.168.3.35:8080/v1/crud/'; // 后端新增数据的 API 地址
 
   return axios.post(url, data, {
     headers: {
